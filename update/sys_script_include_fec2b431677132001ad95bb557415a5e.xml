@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_meetup.InviteManager</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>InviteManager</name>
+        <script><![CDATA[var InviteManager = Class.create();
+InviteManager.prototype = {
+	initialize: function(eventID, userID) {
+		this.inviteTable = 'x_meetup_m2m_invite';
+		this.eventTable  = 'x_meetup_event';
+		this.eventID = eventID;
+		this.userID = userID;
+	},
+
+	/*
+     * determine if the user is already on the invite for this event
+     */
+	userOnList : function() {
+
+		var invite = new GlideRecord(this.inviteTable);
+		invite.addQuery('u_user', this.userID);
+		invite.addQuery('u_event', this.eventID);
+		invite.query();
+
+		if (invite.next()) {
+			return invite.sys_id;
+		}
+
+		return;
+	},
+
+	/*
+	 * get the user's response to this event
+	 */
+	getUserResponse : function() {
+
+		var invite = new GlideRecord(this.inviteTable);
+		invite.addQuery('u_user', this.userID);
+		invite.addQuery('u_event', this.eventID);
+		invite.query();
+
+		if (invite.next()) {
+			return invite.getValue('response');
+		}
+
+		return '';
+	},
+
+	/*
+     * make a new invite for this user
+     */
+	createInvite : function(response) {
+
+		var invite = new GlideRecord(this.inviteTable);
+		invite.newRecord();
+		invite.u_user = this.userID;
+		invite.u_event = this.eventID;
+
+		if (response == 'Going') {
+			var currentCap = this._currentCapacity(invite.u_event);
+			var eventCap = this._eventCapacity(invite.u_event);
+
+			if (currentCap >= eventCap) {
+				response = 'Stand by';
+			}
+
+		}
+		invite.response = response;
+		invite.insert();
+
+		return response;
+	},
+
+	updateInvite : function(inviteID, response) {
+
+		var invite = new GlideRecord(this.inviteTable);
+		if (!inviteID) {
+			invite.addQuery('u_user', this.userID);
+			invite.addQuery('u_event', this.eventID);
+			invite.query();
+			invite.next();
+		} else {
+			invite.get(inviteID);
+		}
+
+		if (response == 'Going') {
+			var currentCap = this._currentCapacity();
+			var eventCap = this._eventCapacity();
+
+			if (currentCap >= eventCap) {
+				response = 'Stand by';
+			}
+		}
+
+		invite.response = response;
+		invite.update();
+
+		return response;
+	},
+
+	/*
+	 * get the current capacity for this event
+	 */
+	_currentCapacity : function() {
+
+		var currentCap = 0;
+		var ga = new GlideAggregate(this.inviteTable);
+		ga.addQuery('u_event', this.eventID);
+		ga.addQuery('response', 'Going');
+		ga.addAggregate('COUNT');
+		ga.query();
+
+		if (ga.next()) {
+			currentCap = ga.getAggregate('COUNT');
+		}
+
+		return currentCap;
+
+	},
+
+	/*
+	 * get capacity count for the event
+	 */
+	_eventCapacity : function() {
+
+		var e = new GlideRecord(this.eventTable);
+		e.get(this.eventID);
+
+		return e.getValue('max_persons');
+	},
+
+	getAttendeeList : function() {
+		var userList = [];
+		var invite = new GlideRecord(this.inviteTable);
+		invite.addQuery('u_event', this.eventID);
+		invite.addQuery('response', 'Going');
+		invite.query();
+
+		while (invite.next()) {
+			userList.push(invite.getValue('sys_id'));
+		}
+
+		return userList.join(',');
+	},
+
+	type: 'InviteManager'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 20:06:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fec2b431677132001ad95bb557415a5e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>InviteManager</sys_name>
+        <sys_package display_value="Meetup" source="x_meetup">ac9ee3a1673132001ad95bb557415a14</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Meetup">ac9ee3a1673132001ad95bb557415a14</sys_scope>
+        <sys_update_name>sys_script_include_fec2b431677132001ad95bb557415a5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-30 19:55:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Event_Button_Colors</name>
+        <scoped_name>x_meetup_Event_Button_Colors</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 20:50:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3afcf4f1677132001ad95bb557415ae5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Event_Button_Colors</sys_name>
+        <sys_package display_value="Meetup" source="x_meetup">ac9ee3a1673132001ad95bb557415a14</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Meetup">ac9ee3a1673132001ad95bb557415a14</sys_scope>
+        <sys_update_name>sys_ui_macro_3afcf4f1677132001ad95bb557415ae5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 20:52:17</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<style>
+		#event_going {background-color: LimeGreen; color: #fff; }
+		#event_not_going { background-color: Tomato; color: #fff; }
+	</style>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

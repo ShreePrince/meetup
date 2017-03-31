@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>4a4f2ba1673132001ad95bb557415ad0</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>7bbdf8f1677132001ad95bb557415a08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>ca4f2ba1673132001ad95bb557415ad0</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>ffbdf8f1677132001ad95bb557415a08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>location</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>4e4f2ba1673132001ad95bb557415ad0</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>73bdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>max_persons</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>ce4f2ba1673132001ad95bb557415ad0</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>f3bdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>424f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>77bdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>state</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>c24f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>f7bdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>work_start</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>464f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>7bbdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>work_end</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>c64f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>fbbdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>cost_per_person</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>4a4f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>7fbdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>.end_split</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>ca4f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>ffbdf8f1677132001ad95bb557415a09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>short_description</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>4e4f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>73bdf8f1677132001ad95bb557415a0a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,15 +159,29 @@
             <element>description</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-29 15:08:54</sys_created_on>
-            <sys_id>ce4f2ba1673132001ad95bb557415ad1</sys_id>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>f3bdf8f1677132001ad95bb557415a0a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-29 15:08:54</sys_updated_on>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_meetup_Event_Button_Colors.xml</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-03-29 20:51:43</sys_created_on>
+            <sys_id>77bdf8f1677132001ad95bb557415a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Event Button Colors">356d78f1677132001ad95bb557415a62</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_meetup_event" sys_domain="global" view="Default view">17cea7a1673132001ad95bb557415a8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-03-29 20:51:43</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
