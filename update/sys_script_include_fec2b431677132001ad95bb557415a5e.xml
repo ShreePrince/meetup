@@ -64,7 +64,7 @@ InviteManager.prototype = {
 			var currentCap = this._currentCapacity(invite.u_event);
 			var eventCap = this._eventCapacity(invite.u_event);
 
-			if (currentCap >= eventCap) {
+			if (currentCap >= eventCap && invite.u_event.max_persons > 0) {
 				response = 'Stand by';
 			}
 
@@ -91,7 +91,7 @@ InviteManager.prototype = {
 			var currentCap = this._currentCapacity();
 			var eventCap = this._eventCapacity();
 
-			if (currentCap >= eventCap) {
+			if (currentCap >= eventCap && invite.u_event.max_persons > 0) {
 				response = 'Stand by';
 			}
 		}
@@ -141,21 +141,20 @@ InviteManager.prototype = {
 		invite.query();
 
 		while (invite.next()) {
-			userList.push(invite.getValue('sys_id'));
+			userList.push(invite.u_user.email);
 		}
 
 		return userList.join(',');
 	},
 
 	type: 'InviteManager'
-};
-]]></script>
+};]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-29 20:06:38</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>fec2b431677132001ad95bb557415a5e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>InviteManager</sys_name>
         <sys_package display_value="Meetup" source="x_meetup">ac9ee3a1673132001ad95bb557415a14</sys_package>
         <sys_policy>read</sys_policy>
@@ -163,6 +162,6 @@ InviteManager.prototype = {
         <sys_scope display_value="Meetup">ac9ee3a1673132001ad95bb557415a14</sys_scope>
         <sys_update_name>sys_script_include_fec2b431677132001ad95bb557415a5e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-30 19:55:35</sys_updated_on>
+        <sys_updated_on>2017-04-13 22:48:26</sys_updated_on>
     </sys_script_include>
 </record_update>

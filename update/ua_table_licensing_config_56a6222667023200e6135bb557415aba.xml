@@ -5,24 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_meetup_m2m_invite</name>
+        <name>x_meetup_event</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-03-29 15:13:00</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>063033e1673132001ad95bb557415a29</sys_id>
+        <sys_created_on>2017-03-29 15:05:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>56a6222667023200e6135bb557415aba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_meetup_m2m_invite</sys_name>
+        <sys_name>x_meetup_event</sys_name>
         <sys_package display_value="Meetup" source="x_meetup">ac9ee3a1673132001ad95bb557415a14</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Meetup">ac9ee3a1673132001ad95bb557415a14</sys_scope>
-        <sys_update_name>ua_table_licensing_config_063033e1673132001ad95bb557415a29</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_56a6222667023200e6135bb557415aba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-29 15:13:00</sys_updated_on>
+        <sys_updated_on>2017-03-29 15:05:49</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

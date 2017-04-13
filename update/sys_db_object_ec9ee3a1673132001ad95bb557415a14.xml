@@ -17,11 +17,11 @@
         <number_ref display_value="EVT">4d9ee3a1673132001ad95bb557415afa</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">4445f0b76713220032985bb557415ace</super_class>
+        <super_class display_value="Task" name="task">33dee1b66721320083eb5bb557415ae4</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-29 15:05:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ec9ee3a1673132001ad95bb557415a14</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Event</sys_name>
